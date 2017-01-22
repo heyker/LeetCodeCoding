@@ -8,5 +8,5 @@
 git add .
 git commit -m "update files"
 
-git remote add origin git@github.com:heyker/LeetCodeCoding.git
+#git remote add origin git@github.com:heyker/LeetCodeCoding.git
 git push -u origin master
