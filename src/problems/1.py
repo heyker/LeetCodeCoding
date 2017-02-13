@@ -15,9 +15,20 @@ class Solution(object):
                 if nums[i]+nums[j]==target:
                     return  [i,j]
         return [-1,-1]
+    def hammingWeight(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        ret=0
+        while n>0:
+            ret+=(n&1)
+            n>>=1
+        return ret
 if __name__ == '__main__':
     s=Solution()
     nums = [2, 7, 11, 15]
     target = 9          
     print s.twoSum(nums,target)
+    print s.hammingWeight(11)
     pass
