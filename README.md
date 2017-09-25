@@ -1,3 +1,3 @@
 LeetCode on the way~
 add ne host
-vscode test 123
+vscode test centos
